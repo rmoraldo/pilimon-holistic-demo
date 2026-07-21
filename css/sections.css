@@ -1,0 +1,518 @@
+/* Shared Section Heading */
+
+.section-heading {
+    max-width: 780px;
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.section-heading h2 {
+    margin-bottom: 1rem;
+    color: #4e3b2a;
+    font-size: clamp(2.2rem, 4vw, 3.5rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+}
+
+.section-heading > p:last-child {
+    color: #70665d;
+    font-size: 1.1rem;
+    line-height: 1.75;
+}
+
+
+/* Services */
+
+.services {
+    padding: 7rem 8%;
+    background: #f8f4ee;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-card {
+    padding: 2rem;
+
+    background: #fffdf9;
+    border: 1px solid rgba(140, 106, 67, 0.12);
+    border-radius: 18px;
+
+    box-shadow: 0 12px 35px rgba(78, 59, 42, 0.08);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+
+    border-color: rgba(140, 106, 67, 0.3);
+
+    box-shadow: 0 20px 45px rgba(78, 59, 42, 0.13);
+}
+
+.service-card h3 {
+    margin-bottom: 0.75rem;
+
+    color: #6f5235;
+
+    font-size: 1.35rem;
+    line-height: 1.3;
+}
+
+.service-card p {
+    color: #70665d;
+    line-height: 1.7;
+}
+
+
+/* Additional Services */
+
+.additional-services {
+    max-width: 900px;
+    margin: 4rem auto 0;
+    text-align: center;
+}
+
+.additional-services h3 {
+    margin-bottom: 1rem;
+
+    color: #4e3b2a;
+
+    font-size: 1.5rem;
+}
+
+.additional-services p {
+    max-width: 700px;
+    margin: 0 auto 2rem;
+
+    color: #70665d;
+}
+
+.service-tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.service-tags span {
+    padding: 0.6rem 1.1rem;
+
+    color: #675b50;
+    background: #eee5da;
+
+    border: 1px solid #dfd1c0;
+    border-radius: 999px;
+
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+
+/* Why PiliMon */
+
+.why-us {
+    padding: 7rem 8%;
+
+    color: white;
+    background: #5b4532;
+}
+
+.why-us-content {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    align-items: center;
+    gap: 5rem;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.why-us-copy .eyebrow {
+    color: #dfc6a8;
+}
+
+.why-us-copy h2 {
+    margin-bottom: 1.5rem;
+
+    color: white;
+
+    font-size: clamp(2.2rem, 4vw, 3.6rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+}
+
+.why-us-copy > p:not(.eyebrow) {
+    margin-bottom: 2rem;
+
+    color: rgba(255, 255, 255, 0.78);
+
+    font-size: 1.1rem;
+    line-height: 1.75;
+}
+
+.why-us .btn {
+    color: #5b4532;
+    background: #fffaf4;
+}
+
+.why-us .btn:hover {
+    background: #f0e5d8;
+}
+
+.benefit-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+}
+
+.benefit {
+    padding: 1.75rem;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    border-radius: 16px;
+}
+
+.benefit span {
+    display: block;
+    margin-bottom: 1rem;
+
+    color: #dfc09a;
+
+    font-weight: 700;
+}
+
+.benefit h3 {
+    margin-bottom: 0.6rem;
+
+    color: white;
+
+    font-size: 1.25rem;
+}
+
+.benefit p {
+    color: rgba(255, 255, 255, 0.72);
+    line-height: 1.65;
+}
+
+
+/* Featured Treatments */
+
+.gallery {
+    padding: 7rem 8%;
+    background: #fffdf9;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 1rem;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    position: relative;
+
+    overflow: hidden;
+
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 20px;
+
+    box-shadow: 0 14px 35px rgba(78, 59, 42, 0.12);
+
+}   
+
+
+.project-one {
+    background-image: url("../assets/images/project-1.jpg");
+}
+
+.project-two {
+    background-image: url("../assets/images/project-2.jpg");
+}
+
+.project-three {
+    background-image: url("../assets/images/project-3.jpg");
+}
+
+.project-four {
+    background-image: url("../assets/images/project-4.jpg");
+}
+
+.project-overlay {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding: 1.5rem;
+
+    color: white;
+
+    background: linear-gradient(
+        transparent 30%,
+        rgba(53, 39, 28, 0.88)
+    );
+}
+
+.project-overlay p {
+    margin-bottom: 0.25rem;
+
+    color: #ead3b7;
+
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.project-overlay h3 {
+    font-size: 1.35rem;
+    line-height: 1.3;
+}
+
+.gallery-item.large,
+.gallery-item.wide {
+    grid-column: span 2;
+}
+
+
+/* Testimonials */
+
+.testimonials {
+    padding: 7rem 8%;
+    background: #f8f4ee;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+    max-width: 1200px;
+    margin: 3rem auto 0;
+}
+
+.testimonial-card {
+    padding: 2rem;
+
+    background: #fffdf9;
+
+    border: 1px solid rgba(140, 106, 67, 0.12);
+    border-radius: 18px;
+
+    box-shadow: 0 15px 35px rgba(78, 59, 42, 0.08);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 45px rgba(78, 59, 42, 0.13);
+}
+
+.stars {
+    margin-bottom: 1rem;
+
+    color: #c89f62;
+
+    font-size: 1.3rem;
+}
+
+.testimonial-card p {
+    margin-bottom: 2rem;
+
+    color: #5f574f;
+
+    line-height: 1.75;
+}
+
+.testimonial-card h4 {
+    margin-bottom: 0.25rem;
+
+    color: #4e3b2a;
+}
+
+.testimonial-card span {
+    color: #8b8178;
+    font-size: 0.9rem;
+}
+
+
+/* Final CTA */
+
+.final-cta {
+    padding: 7rem 8%;
+
+    color: white;
+    background: #8c6a43;
+
+    text-align: center;
+}
+
+.final-cta .eyebrow {
+    color: #f0dcc3;
+}
+
+.final-cta h2 {
+    margin-bottom: 1rem;
+
+    color: white;
+
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+
+.final-cta > p:not(.eyebrow) {
+    max-width: 680px;
+    margin: 0 auto 2rem;
+
+    color: rgba(255, 255, 255, 0.88);
+
+    font-size: 1.2rem;
+    line-height: 1.75;
+}
+
+.final-cta .hero-actions {
+    justify-content: center;
+}
+
+.final-cta .btn {
+    color: #6c5134;
+    background: white;
+}
+
+.final-cta .btn:hover {
+    background: #f4ece3;
+}
+
+.final-cta .text-link {
+    color: white;
+}
+
+
+/* Contact */
+
+.contact {
+    padding: 7rem 8%;
+    background: #fffdf9;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 4rem;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-copy h2 {
+    margin: 1rem 0 1.5rem;
+
+    color: #4e3b2a;
+
+    font-size: clamp(2.3rem, 4vw, 3.6rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+}
+
+.contact-copy > p:not(.eyebrow) {
+    margin-bottom: 2rem;
+
+    color: #70665d;
+
+    font-size: 1.05rem;
+    line-height: 1.75;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.contact-item {
+    padding: 1.5rem;
+
+    background: #fffdf9;
+
+    border: 1px solid rgba(140, 106, 67, 0.12);
+    border-radius: 16px;
+
+    box-shadow: 0 10px 30px rgba(78, 59, 42, 0.08);
+}
+
+.contact-item h3 {
+    margin-bottom: 0.5rem;
+
+    color: #8c6a43;
+
+    font-size: 1rem;
+}
+
+.contact-item p {
+    color: #5f574f;
+    line-height: 1.6;
+}
+
+
+/* Booking Card */
+
+.map-placeholder {
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 3rem;
+
+    color: #4e3b2a;
+    background: #e9ded0;
+
+    border: 1px solid #d9c9b6;
+    border-radius: 22px;
+
+    text-align: center;
+}
+
+.map-placeholder h3 {
+    margin-bottom: 1rem;
+
+    font-size: 2rem;
+}
+
+.map-placeholder p {
+    max-width: 460px;
+    margin-bottom: 2rem;
+
+    color: #675d53;
+
+    font-size: 1.05rem;
+    line-height: 1.75;
+}

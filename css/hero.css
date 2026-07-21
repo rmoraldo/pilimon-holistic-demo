@@ -1,0 +1,280 @@
+/* Hero */
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 6rem 8%;
+    color: white;
+
+    background:
+        linear-gradient(
+            rgba(59, 45, 33, 0.62),
+            rgba(59, 45, 33, 0.62)
+        ),
+        url("../assets/images/hero.jpg") center/cover no-repeat;
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+.hero-copy {
+    max-width: 700px;
+}
+
+.eyebrow {
+    margin-bottom: 1rem;
+
+    color: #d9bea0;
+
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    margin-bottom: 2rem;
+
+    font-size: clamp(3rem, 6vw, 5.25rem);
+    line-height: 1.02;
+    letter-spacing: -0.03em;
+}
+
+.hero-description {
+    max-width: 650px;
+    margin-bottom: 2rem;
+
+    color: rgba(255, 255, 255, 0.9);
+
+    font-size: 1.25rem;
+    line-height: 1.75;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.text-link {
+    color: white;
+    font-weight: 600;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.hero-trust {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+
+    margin-top: 2rem;
+
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.hero-trust span {
+    color: #e7c98e;
+    letter-spacing: 0.1em;
+}
+
+.hero-highlights {
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+
+    margin-top: 3rem;
+}
+
+.hero-highlights h3 {
+    margin-bottom: 0.25rem;
+
+    color: white;
+
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.hero-highlights p {
+    max-width: 180px;
+
+    color: rgba(255, 255, 255, 0.75);
+
+    font-size: 0.9rem;
+}
+
+/* Consultation Card */
+
+.quote-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    padding: 2rem;
+
+    color: #4a433d;
+    background: rgba(255, 251, 247, 0.97);
+
+    border: 1px solid rgba(140, 106, 67, 0.14);
+    border-radius: 20px;
+
+    box-shadow: 0 24px 70px rgba(43, 32, 23, 0.28);
+}
+
+.form-label {
+    color: #8c6a43;
+
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.quote-card h2 {
+    margin-bottom: 0.5rem;
+
+    color: #4e3b2a;
+
+    font-size: 1.8rem;
+    line-height: 1.25;
+}
+
+.quote-card label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+    color: #5f5448;
+
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.quote-card input,
+.quote-card select {
+    width: 100%;
+    padding: 0.9rem 1rem;
+
+    border: 1px solid #dfd4c7;
+    border-radius: 9px;
+
+    color: #4a433d;
+    background: white;
+
+    font: inherit;
+}
+
+.quote-card input:focus,
+.quote-card select:focus {
+    outline: 2px solid rgba(140, 106, 67, 0.2);
+    border-color: #8c6a43;
+}
+
+.quote-card button {
+    margin-top: 0.5rem;
+    padding: 1rem;
+
+    border: none;
+    border-radius: 9px;
+
+    color: white;
+    background: #8c6a43;
+
+    font: inherit;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.quote-card button:hover {
+    background: #735536;
+    transform: translateY(-2px);
+}
+
+/* Direct Booking Card */
+
+.booking-description {
+    color: #70665d;
+    line-height: 1.7;
+}
+
+.booking-options {
+    display: grid;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.booking-option {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 1rem;
+
+    background: white;
+    border: 1px solid #dfd4c7;
+    border-radius: 12px;
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.booking-option:hover {
+    transform: translateY(-2px);
+    border-color: #8c6a43;
+    box-shadow: 0 10px 25px rgba(78, 59, 42, 0.1);
+}
+
+.booking-icon {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+
+    width: 44px;
+    height: 44px;
+
+    color: white;
+    background: #8c6a43;
+
+    border-radius: 50%;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.booking-option strong {
+    display: block;
+    margin-bottom: 0.15rem;
+
+    color: #4e3b2a;
+}
+
+.booking-option p {
+    color: #70665d;
+    font-size: 0.9rem;
+}
+
+.booking-note {
+    margin-top: 0.5rem;
+
+    color: #8b8178;
+
+    font-size: 0.85rem;
+    text-align: center;
+}

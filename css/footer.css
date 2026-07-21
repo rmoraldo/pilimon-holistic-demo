@@ -1,0 +1,83 @@
+/* Footer */
+
+.site-footer {
+    padding: 5rem 8% 2rem;
+
+    color: white;
+    background: #3b2d21;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 4rem;
+
+    max-width: 1200px;
+    margin: 0 auto 4rem;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 1rem;
+
+    color: #f7eee4;
+
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.footer-brand p {
+    max-width: 420px;
+
+    color: rgba(255, 255, 255, 0.7);
+
+    line-height: 1.75;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.footer-links h3 {
+    margin-bottom: 0.5rem;
+
+    color: #d9bea0;
+
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.footer-links a,
+.footer-links p {
+    color: rgba(255, 255, 255, 0.74);
+    line-height: 1.65;
+}
+
+.footer-links a {
+    transition: color 0.25s ease;
+}
+
+.footer-links a:hover {
+    color: #f1d6b8;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 2rem;
+
+    color: rgba(255, 255, 255, 0.52);
+
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+
+    font-size: 0.9rem;
+}
