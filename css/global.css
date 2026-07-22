@@ -45,3 +45,6 @@ ul {
     background: #735536;
     transform: translateY(-3px);
 }
+section {
+    scroll-margin-top: 100px;
+}
