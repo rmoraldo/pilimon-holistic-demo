@@ -81,3 +81,10 @@
 
     font-size: 0.9rem;
 }
+
+
+.footer-links i {
+    width: 18px;
+    margin-right: 0.6rem;
+    color: #d9bea0;
+}

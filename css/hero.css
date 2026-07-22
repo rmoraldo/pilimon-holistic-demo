@@ -30,7 +30,7 @@
     max-width: 700px;
 }
 
-.eyebrow {
+.hero .eyebrow {
     margin-bottom: 1rem;
 
     color: #d9bea0;
@@ -256,6 +256,10 @@
 
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+.booking-icon i {
+    font-size: 1.2rem;
 }
 
 .booking-option strong {

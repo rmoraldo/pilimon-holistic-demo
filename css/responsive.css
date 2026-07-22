@@ -5,7 +5,6 @@
         position: relative;
         margin: 0;
         padding: 1rem 5%;
-
         border-radius: 0;
     }
 
@@ -50,7 +49,6 @@
     nav ul a {
         display: block;
         padding: 0.9rem 1rem;
-
         color: #5b4532;
     }
 
@@ -104,17 +102,14 @@
     }
 
     .services,
-    .why-us,
+    .hours,
     .gallery,
     .testimonials,
-    .final-cta,
     .contact {
         padding: 5rem 5%;
     }
 
     .service-grid,
-    .why-us-content,
-    .benefit-grid,
     .testimonial-grid,
     .contact-content,
     .contact-info,
@@ -122,13 +117,8 @@
         grid-template-columns: 1fr;
     }
 
-    .why-us-content,
     .contact-content {
         gap: 3rem;
-    }
-
-    .benefit-grid {
-        gap: 1rem;
     }
 
     .additional-services {
@@ -144,6 +134,18 @@
         font-size: 0.88rem;
     }
 
+    .hours-card {
+        padding: 1rem 1.25rem;
+    }
+
+    .hours-row {
+        gap: 1rem;
+    }
+
+    .hours-row strong {
+        max-width: 55%;
+    }
+
     .gallery-grid {
         grid-template-columns: 1fr;
         grid-auto-rows: 240px;
@@ -152,11 +154,6 @@
     .gallery-item.large,
     .gallery-item.wide {
         grid-column: span 1;
-    }
-
-    .final-cta .hero-actions {
-        flex-direction: column;
-        gap: 1rem;
     }
 
     .map-placeholder {
