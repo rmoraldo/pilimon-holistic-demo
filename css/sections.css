@@ -299,10 +299,6 @@
         box-shadow 0.3s ease;
 }
 
-.testimonial-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 20px 45px rgba(78, 59, 42, 0.13);
-}
 
 .stars {
     margin-bottom: 1rem;
